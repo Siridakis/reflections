@@ -13,6 +13,9 @@ It gives you a choice to commit only the files you want.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Using git diff to check differences between the current files and the files staged.
+Also, using git diff --staged to check differences between staged files and the last commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
