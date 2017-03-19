@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+
+
+Eliminating everything that hasn't changed between version saves a lot of search time and I can focus exclusively on the parts of the code that have been added/removed/changed.
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+
+
+You can see the development process and recognize patterns like things that are always being reworked. This helps you eliminate those things in future projects. Also, it allows you to go back to any feature removed and test different settings without worrying about wheter you'll remember how to reset then.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+
+Automatically saved versions helps with unexpected issues, like power outages or computer crashes and even when the user just forgets to save a version. On the other hand, the saved versions don't really represent logical changes and the number of versions created might grow fast.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+
+
+Git, unlike Google Docs, have some features that are more "programming-specific" and there are a number of cases in which the files in a directory are related between themselves, so it's best to save versions of them all, since a change in one might impact the others.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+git log shows the whole history with info like commit ID, author, date and the commit message for each version. git diff receives two IDs as parameters and shows the differences between the two versions.
+
+
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+
+I don't have to worry so much about this since I can go back to the version where thing weren't broke and even compare versions to see where's the bug coming from.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+Version control of the games I want to develop and projects I'll make while learning to code.
