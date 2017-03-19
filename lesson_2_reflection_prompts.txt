@@ -6,6 +6,10 @@ I need to do it so I can turn a simple directory into a git repository, allowing
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+It keeps track of which files you want to commit next.
+It gives you a choice to commit only the files you want.
+(I'm not sure of any of this. I'm actually very confused right now. The same goes to the previous question).
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
