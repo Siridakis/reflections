@@ -34,5 +34,14 @@ the branches were created and how they are connected.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+All the changes made to both branches will be incorpored in a new commit.
+The branches will becom a single branch from this point on.
+This branch will have access to the commits of both branches that were merged together.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+The pros are not having to check all the differences and see if they conflict and add them manually into code
+The cons are the limited interpretation capacity of git.
+Things that look obvious from the programmer's point of view might not be from git's point of view,
+and therefore, be interpreted as a conflict.
