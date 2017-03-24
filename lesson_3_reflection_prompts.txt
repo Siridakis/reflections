@@ -1,12 +1,18 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-It's always good to have a copy of important files in the cloud, in case anything happens to the local files storage system (like, data corruption or your HD being stolen or destroyed)
+It's always good to have a copy of important files in the cloud, in case anything
+happens to the local files storage system (like, data corruption or your HD being
+stolen or destroyed)
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+That's a tough one for me. One good reason would be when working in a group and
+more than one person commits something in the same branch, this could lead to
+conflicts. The other reason would be thinking the other way around. If you create
+new files or make new commits locally and don't push them yet, would a automatically
+up-to-date remote repository delete those files because they are not in the remote?
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
